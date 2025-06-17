@@ -6,3 +6,67 @@ Prepared by:
 - AAVINNESH A/L GOPAL KRISHNAN (TG22033)  
 - NISHA KATHIJAH BINTI ABDUL QADIR (TG22098)
 - MUHAMAD IKMAL BIN MOHD RAWI (TG22005)
+
+# BTS4723 Question 3 – Software Requirements for Swift Haulage Berhad
+
+## ✅ Functional Requirements (FR)
+
+1. **Driver Logbook System**  
+   - FR1.1: View current/completed trips  
+   - FR1.2: Log fuel usage and delays
+
+2. **Automated Truck Assignment**  
+   - FR2.1: Suggest trucks based on cargo and availability  
+   - FR2.2: Dispatcher override option
+
+3. **Quotation Tool**  
+   - FR3.1: Generate delivery cost estimates  
+   - FR3.2: Display estimated delivery time
+
+4. **Dock Time Scheduling**  
+   - FR4.1: Prevent delivery congestion  
+   - FR4.2: Auto-block overlapping slots
+
+5. **Multi-Drop Route Optimization**  
+   - FR5.1: Optimize multi-stop delivery  
+   - FR5.2: Consider fuel and time efficiency
+
+6. **E-Proof of Delivery (ePOD)**  
+   - FR6.1: Upload images or digital signatures  
+   - FR6.2: Auto-update delivery status
+
+7. **Trip Delay Reporting**  
+   - FR7.1: Log cause and new ETA  
+   - FR7.2: Notify managers in real-time
+
+8. **Customer Dashboard**  
+   - FR8.1: Live tracking  
+   - FR8.2: View invoice/order history
+
+9. **Driver Performance Tracking**  
+   - FR9.1: Track punctuality, fuel usage  
+   - FR9.2: Generate monthly reports
+
+10. **Tax-Compliant Invoicing**  
+    - FR10.1: LHDN-compliant format  
+    - FR10.2: Downloadable digital copy
+
+---
+
+## 🚫 Non-Functional Requirements (NFR)
+
+1. **System Performance**  
+   - NFR1.1: Process requests under 2 seconds  
+   - NFR1.2: Real-time processing for delays & bookings
+
+2. **Mobile Accessibility**  
+   - NFR2.1: Optimized for Android driver phones  
+   - NFR2.2: Offline syncing enabled
+
+3. **Security and Compliance**  
+   - NFR3.1: Use HTTPS encryption  
+   - NFR3.2: Comply with GDPR, PDPA, PCI-DSS
+
+4. **Audit Logging**  
+   - NFR4.1: Log changes for 24 months  
+   - NFR4.2: Export logs for dispute/audit
